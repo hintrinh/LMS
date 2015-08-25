@@ -1,0 +1,53 @@
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">修改读者信息</strong> / <small>Update Reader</small></div>
+    </div>
+
+    <hr/>
+      <div class="am-u-sm-12 am-u-md-8 " id="reader">
+		<table class="am-table  am-table-radius am-table-striped am-table-hover ">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>读者姓名</th>
+					<th>读者类型</th>
+					<th>借书卡号</th>
+					<th>所属系部</th>
+					<th>所属班级</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<foreach name="data" item="vo" >
+				<tr>
+					<td>{$vo.reader_id}</td>
+					<td>{$vo.reader_name}</td>
+					<td>{$vo.reader_types}</td>
+					<td>{$vo.reader_card}</td>
+					<td>{$vo.reader_department}</td>
+					<td>{$vo.reader_class}</td>
+					<td>
+						<div class="am-btn-group am-btn-group-xs">
+							<a class="am-btn  am-btn-warning am-btn-xs " href="editReader/id/{$vo.reader_id}">
+								<span class="am-icon-pencil-square-o" >&nbsp;&nbsp;修改</span>
+							</a>
+						
+						</div>
+					</td>
+				</tr>
+			</foreach>
+			<!--分页输出-->
+			</tbody>
+		</table>
+		  <div class="page am-margin am-u-sm-12 am-u-sm-centered am-cf">
+			  {$page}
+		  </div>
+    </div>
+	<script type="text/javascript">
+            function page(id){    //user函数名 一定要和action中的第三个参数一致上面有
+                 var id = id;
+                    $.get('Main/updateReader', {'p':id}, function(data){  //用get方法发送信息到UserAction中的user方法
+                     $("#reader").replaceWith("<div  id='reader'>"+data+"</div>"); //user一定要和tpl中的一致
+                });
+             }   
+	</script>

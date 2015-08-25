@@ -1,0 +1,64 @@
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">修改读者</strong> / <small>Update Reader</small></div>
+    </div>
+
+    <hr/>
+      <div class="am-u-sm-12 am-u-md-8 ">
+        <form class="am-form am-form-horizontal" method="post" action="{$action}">
+          
+		  
+		  <div class="am-form-group">
+            <label for="reader_id" class="am-u-sm-3 am-form-label">读者ID / Id</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="reader_id" name="reader_id" value="{$id}" disabled />
+              
+            </div>
+			<br> </br>
+		  <div class="am-form-group">
+            <label for="reader_name" class="am-u-sm-3 am-form-label">读者姓名 / Name</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="reader_name" name="reader_name"placeholder="请输入读者姓名">
+              
+            </div>
+          </div>
+		  
+		  <div class="am-u-sm-12 am-u-md-12 am-form-group">
+			<label for="reader_types" class="am-u-sm-3 am-form-label" >读者类别 / Types</label>			
+			&nbsp;&nbsp;<select id="reader_types"  name="reader_types" data-am-selected="{ btnStyle: 'default'}" >
+			
+					<option value="学生">A.学生</option>
+					<option value="老师">B.老师</option>
+					
+				
+			</select>
+		  </div>
+		  <div class="am-form-group">
+            <label for="reader_card" class="am-u-sm-3 am-form-label">借书卡号 / Card</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="reader_card" name="reader_card"placeholder="请输入借书卡号">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="reader_department" class="am-u-sm-3 am-form-label">系别 / Department</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="reader_department" name="reader_department"placeholder="请输入读者所属系别">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="reader_class" class="am-u-sm-3 am-form-label">班级 / Class</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="reader_class" name="reader_class"placeholder="请输入读者所属班级">              
+            </div>
+          </div>
+		  
+
+          <div class="am-form-group">
+            <div class="am-u-sm-9 am-u-sm-push-3">
+              <input type="submit" value="确认修改"class="am-btn am-btn-primary" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+ 

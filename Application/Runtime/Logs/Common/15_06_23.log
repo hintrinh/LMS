@@ -1,0 +1,78 @@
+[ 2015-06-23T13:48:20+08:00 ] 127.0.0.1 /showLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+ERR: 无法加载模块:ShowLogin
+
+[ 2015-06-23T13:49:19+08:00 ] 127.0.0.1 /showLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:ShowLogin
+
+[ 2015-06-23T13:49:50+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:51:03+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:51:42+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:52:26+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:52:42+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:52:53+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:53:07+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:55:07+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:55:32+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:55:50+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-23T13:56:16+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+

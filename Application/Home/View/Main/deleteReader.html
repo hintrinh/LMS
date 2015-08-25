@@ -1,0 +1,53 @@
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">删除读者信息</strong> / <small>Delete Reader</small></div>
+    </div>
+
+    <hr/>
+      <div class="am-u-sm-12 am-u-md-8 ">
+		<table class="am-table  am-table-radius am-table-striped am-table-hover">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>读者姓名</th>
+					<th>读者类型</th>
+					<th>借书卡号</th>
+					<th>所属系部</th>
+					<th>所属班级</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<foreach name="data" item="vo"  empty="当前没有读者数据！">
+				<tr>
+					<td>{$vo.reader_id}</td>
+					<td>{$vo.reader_name}</td>
+					<td>{$vo.reader_types}</td>
+					<td>{$vo.reader_card}</td>
+					<td>{$vo.reader_department}</td>
+					<td>{$vo.reader_class}</td>
+					<td>
+						<div class="am-btn-group am-btn-group-xs">
+							<a class="am-btn  am-btn-danger am-btn-xs "  href="javascript:dodel('__URL__/doDeleteReader/id/{$vo.reader_id}')" >
+								<span class="am-icon-trash-o" >&nbsp;&nbsp;删除</span>
+							</a>
+						
+						</div>
+						
+					</td>
+				</tr>
+			</foreach>
+			</tbody>
+		</table>
+		<script>
+			function dodel(url){
+				if(confirm('你确定要删除该条读者信息吗？')){
+						window.location=url;
+					}
+				}           
+        </script>
+                
+              
+      </div>
+    </div>
+ 

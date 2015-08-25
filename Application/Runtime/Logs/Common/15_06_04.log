@@ -1,0 +1,291 @@
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/images/rss.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/ldh/s1.jpg
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/images/empirebak.gif
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/images/opensource.gif
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/js/tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/shq/titlepic.jpg
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Build.class.php 第 67 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:17+08:00 ] 127.0.0.1 /ecms72/skin/default/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lry/s5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/e/member/login/loginjs.php?t=0.9690656332377838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lmhd/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/skin/default/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/skin/default/images/rss.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/skin/default/images/opensource.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/ldh/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/skin/default/images/empirebak.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/skin/default/images/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/shq/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lry/s5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:18+08:00 ] 127.0.0.1 /ecms72/e/data/images/pixviewer.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/rss.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/opensource.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/ldh/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/empirebak.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/shq/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/js/tabs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lmhd/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/e/member/login/loginjs.php?t=0.9518578228932343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lry/s5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/opensource.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/rss.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002427s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/empirebak.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/lmhd/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/dt/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/shq/titlepic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms71/testdata/demopic/photo/ldh/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载模块:Ecms71
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/skin/default/images/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+ERR: 无法加载模块:Ecms72
+
+[ 2015-06-04T00:50:21+08:00 ] 127.0.0.1 /ecms72/e/data/images/pixviewer.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+ERR: 无法加载模块:Ecms72
+

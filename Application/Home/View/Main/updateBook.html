@@ -1,0 +1,56 @@
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">修改图书信息</strong> / <small>Update Book</small></div>
+    </div>
+
+    <hr/>
+      <div class="am-u-sm-12 am-u-md-12 ">
+		<table class="am-table  am-table-radius am-table-striped am-table-hover  am-scrollable-horizontal">
+			<thead>
+				<tr >
+					<th>id</th>
+					<th>书籍类别</th>
+					<th>书籍名称</th>
+					<th>书籍编码</th>
+					<th>作者</th>
+					<th>出版社</th>
+					<th>图书单价</th>
+					<th>入库时间</th>
+					<th>存放位置</th>
+					<th>入库数量</th>
+					<th>书籍简介</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<foreach name="data" item="vo" >
+				<tr>
+					<td>{$vo.book_id}</td>
+					<td>{$vo.class}</td>
+					<td>{$vo.bookname}</td>
+					<td>{$vo.isbn}</td>
+					<td>{$vo.author}</td>
+					<td>{$vo.publish}</td>
+					<td>{$vo.tsdj}</td>
+					<td>{$vo.rksj}</td>
+					<td>{$vo.cfwz}</td>
+					<td>{$vo.rksl}</td>
+					<td>{$vo.intro}</td>
+					<td>
+						<div class="am-btn-group am-btn-group-xs">
+							<a class="am-btn  am-btn-warning am-btn-xs " href="editBook/id/{$vo.book_id}">
+								<span class="am-icon-pencil-square-o am-text-sm" >&nbsp;&nbsp;修改</span>
+							</a>
+						
+						</div>
+					</td>
+				</tr>
+			</foreach>
+			</tbody>
+		</table>
+		  <div class="page am-margin am-u-sm-12 am-u-sm-centered am-cf">
+			  {$page}
+		  </div>
+		
+    </div>
+ 

@@ -1,0 +1,54 @@
+[ 2015-07-08T18:08:05+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Public
+
+[ 2015-07-08T18:09:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-07-08T18:09:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-07-08T18:49:32+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Public
+
+[ 2015-07-08T18:49:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-07-08T18:49:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-07-08T20:07:26+08:00 ] 127.0.0.1 /Public/css/amaze.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Public
+
+[ 2015-07-08T20:07:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-07-08T20:07:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Favicon
+

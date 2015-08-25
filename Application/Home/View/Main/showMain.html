@@ -1,0 +1,64 @@
+
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>Home</small></div>
+	  
+    </div>
+	<hr/>
+    <div class="am-g">
+      <div class="am-u-md-6">
+        <div class="am-panel am-panel-primary">
+          <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-1'}">服务器信息<span class="am-icon-chevron-down am-fr" ></span></div>
+          <div id="collapse-panel-1" class="am-in">
+            <table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover">
+              <tbody>
+					<volist name="info" id="v">
+						<tr> 
+							<td class="text">{$key}：</td>
+							<td class="input">{$v}</td>
+						</tr>
+					</volist> 
+              
+            </table>
+          </div>
+        </div>
+		<div class="am-panel am-panel-primary">
+          <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">MySQL信息<span class="am-icon-chevron-down am-fr" ></span></div>
+		  <div id="collapse-panel-2" class="am-in">
+          <table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover">
+              <tbody>
+					<volist name="mysql" id="v">
+						<tr> 
+							<td class="text">{$key}：</td>
+							<td class="input">{$v}</td>
+						</tr>
+					</volist> 
+              
+            </table>
+			</div>
+        </div>
+		
+      </div>
+	  
+
+		<div class="am-u-md-6">
+			<div class="am-panel am-panel-danger">
+				<div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">操作说明<span class="am-icon-chevron-down am-fr" ></span></div>
+				<div id="collapse-panel-3" class="am-in">
+					<table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover ">
+						<tbody>				
+							<th style="text-align:center;" >日常操作</th>	
+							<tr><td>借阅图书：可以帮助学生办理借阅图书手续，添加新的书籍借阅信息</td></tr>
+							<tr><td>归还图书：添加归还书籍信息，同时删除相应的书籍借阅信息</td></tr>
+							<tr><td>书籍查询：可以查询图书馆所有馆藏书籍，方便借阅</td></tr>
+							<tr><td>个人借阅查询：可以查询某个学生所有的借阅信息，方便管理</td></tr>
+							<th style="text-align:center;">书籍管理</th>
+							<tr><td>书籍入库：可以添加新的书籍信息，需录入完整信息</td></tr>
+							<tr><td>书籍管理：可以编辑错误的书籍信息以及删除无效的书籍信息</td></tr>
+							<th style="text-align:center;">系统查询</th>
+							<tr><td>系统统计：可以归总所有图书库存以及借阅信息，方便掌握图书馆状况</td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+   

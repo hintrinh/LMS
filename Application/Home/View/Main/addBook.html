@@ -1,0 +1,104 @@
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">书籍入库</strong> / <small>Book Storage</small></div>
+    </div>
+
+    <hr/>
+      <div class="am-u-sm-12 am-u-md-8 ">
+        <form class="am-form am-form-horizontal" method="post" action="{$action}">
+		<div class="am-u-sm-12 am-u-md-12 am-form-group">
+			<label for="class" class="am-u-sm-3 am-form-label">书籍类别 / Class</label>			
+			&nbsp;&nbsp;<select id="class"  name="class" data-am-selected="{ btnStyle: 'default'}"  size="5">
+			
+					<option value="马、列、毛主义">A.马、列、毛主义</option>
+					<option value="哲学B">B.哲学</option>
+					<option value="社会科学总论">C.社会科学总论</option>
+					<option value="政治、法律">D.政治、法律</option>
+					<option value="军事">E.军事</option>
+					<option value="经济">F.经济</option>
+					<option value="文化、科学、教育、体育">G.文化、科学、教育、体育</option>
+					<option value="语言、文字">H.语言、文字</option>
+					<option value="I">I.文学</option>
+					<option value="文学">J.艺术</option>
+					<option value="历史、地理">K.历史、地理</option>
+					<option value="自然科学总论">N.自然科学总论</option>
+					<option value="数理科学和化学">O.数理科学和化学</option>
+					<option value="天文学、地理科学">P.天文学、地理科学</option>
+					<option value="生物科学">Q.生物科学</option>
+					<option value="医学、卫生">R.医学、卫生</option>
+					<option value="农业科学">S.农业科学</option>
+					<option value="工业技术">T.工业技术</option>
+					<option value="交通运输">U.交通运输</option>
+					<option value="航空、航天">V.航空、航天</option>
+					<option value="综合性图书">Z.综合性图书</option>
+				
+			</select>
+		  </div>
+          <div class="am-form-group">
+            <label for="bookname" class="am-u-sm-3 am-form-label">书籍名称 / Name</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="bookname" name="bookname"placeholder="请输入书籍名称">
+              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="isbn" class="am-u-sm-3 am-form-label">书籍编码 / ISBN</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="isbn" name="isbn"placeholder="请输入书籍编码">
+            </div>
+          </div>
+		  
+		  <div class="am-form-group">
+            <label for="author" class="am-u-sm-3 am-form-label">作者 / Author</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="author" name="author"placeholder="请输入作者名称">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="publish" class="am-u-sm-3 am-form-label">出版社 / Publish</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="publish" name="publish"placeholder="请输入出版社名称">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="tsdj" class="am-u-sm-3 am-form-label">图书单价 / Price</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="tsdj" name="tsdj"placeholder="请输入书籍单价">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="rksj" class="am-u-sm-3 am-form-label">入库时间 / Time</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="rksj" name="rksj"placeholder="请输入入库时间(格式：yyyy-mm-dd)">              
+            </div>
+          </div>
+		  <div class="am-form-group">
+            <label for="cfwz" class="am-u-sm-3 am-form-label">存放位置 / Location</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="cfwz" name="cfwz"placeholder="请输入存放位置">              
+            </div>
+          </div>
+		        
+		<div class="am-form-group">
+            <label for="rksl" class="am-u-sm-3 am-form-label">入库数量 / Stock</label>
+            <div class="am-u-sm-9">
+              <input type="text" id="rksl" name="rksl"placeholder="请输入库数量">              
+            </div>
+          </div>
+		  
+          <div class="am-form-group">
+            <label for="intro" class="am-u-sm-3 am-form-label">简介 / Intro</label>
+            <div class="am-u-sm-9">
+              <textarea class="" rows="5" id="intro" name="intro" placeholder="请输入书籍简介"></textarea>
+              <small>请控制在200字以内</small>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <div class="am-u-sm-9 am-u-sm-push-3">
+              <input type="submit" value="确定入库"class="am-btn am-btn-primary" />
+            </div>
+          </div>
+        </form>
+      </div>
+    

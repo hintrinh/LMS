@@ -1,0 +1,924 @@
+[ 2015-06-29T00:30:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2015-06-29T00:30:33+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: select version() as ver [ RunTime:0.0021s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-06-29T00:30:35+08:00 ] 127.0.0.1 /Home/User/doLogout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-06-29T00:30:36+08:00 ] 127.0.0.1 /Home/User/showLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-06-29T00:30:36+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:30:36+08:00 ] 127.0.0.1 /Home/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-06-29T00:30:36+08:00 ] 127.0.0.1 /Home/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-06-29T00:30:55+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user` WHERE `number` = 1140701109 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `user` SET `number`='1140701109',`username`=NULL,`password`='8899587',`lastlogintime`='1435509055',`lastloginip`='127.0.0.1',`emali`=NULL WHERE `id` = 5 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-06-29T00:30:57+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: select version() as ver [ RunTime:0.0003s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-06-29T00:31:01+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-06-29T00:31:02+08:00 ] 127.0.0.1 /Home/Main/admin-form.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:03+08:00 ] 127.0.0.1 /Home/Main/assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:09+08:00 ] 127.0.0.1 /Home/User/doLogout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-06-29T00:31:10+08:00 ] 127.0.0.1 /Home/User/showLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2015-06-29T00:31:10+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:13+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `number` = 1140701109 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `number`='1140701109',`username`=NULL,`password`='8899587',`lastlogintime`='1435509073',`lastloginip`='127.0.0.1',`emali`=NULL WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-06-29T00:31:14+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-06-29T00:31:17+08:00 ] 127.0.0.1 /Home/Main/bookInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-06-29T00:31:46+08:00 ] 127.0.0.1 /Home/Main/editProfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-06-29T00:31:51+08:00 ] 127.0.0.1 /Home/User/doLogout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-06-29T00:31:52+08:00 ] 127.0.0.1 /Home/User/showLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-06-29T00:31:52+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T00:31:54+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `number` = 1140701109 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `number`='1140701109',`username`=NULL,`password`='8899587',`lastlogintime`='1435509114',`lastloginip`='127.0.0.1',`emali`=NULL WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-06-29T00:31:55+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-06-29T16:43:21+08:00 ] 127.0.0.1 /Home/User/showLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2015-06-29T16:43:21+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T16:43:21+08:00 ] 127.0.0.1 /Home/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-06-29T16:43:21+08:00 ] 127.0.0.1 /Home/User/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-06-29T16:43:26+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+NOTIC: [2] PDO::__construct(): Error while reading greeting packet. PID=29240 D:\wamp\www\vitaldesign\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2015-06-29T16:43:37+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `user` WHERE `number` = 1140701109 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `user` SET `number`='1140701109',`username`=NULL,`password`='8899587',`lastlogintime`='1435567417',`lastloginip`='127.0.0.1',`emali`=NULL WHERE `id` = 5 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-06-29T16:43:38+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: select version() as ver [ RunTime:0.0008s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2015-06-29T16:44:24+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-06-29T16:44:39+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2015-06-29T16:44:56+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-06-29T16:45:10+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-06-29T16:45:22+08:00 ] 127.0.0.1 /Home/User/doLogout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-06-29T16:45:23+08:00 ] 127.0.0.1 /Home/User/showLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-06-29T16:45:23+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+ERR: 非法操作:assets
+
+[ 2015-06-29T16:45:24+08:00 ] 127.0.0.1 /Home/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` WHERE `number` = 1140701109 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `number`='1140701109',`username`=NULL,`password`='8899587',`lastlogintime`='1435567524',`lastloginip`='127.0.0.1',`emali`=NULL WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-06-29T16:45:25+08:00 ] 127.0.0.1 /Home/Main/showMain.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+SQL: SHOW TABLE STATUS FROM tsglxt [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Data_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+NOTIC: [8] Undefined index: Index_length D:\wamp\www\vitaldesign\Application\Home\Controller\MainController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2015-06-29T16:45:53+08:00 ] 127.0.0.1 /Home/User/doLogout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-06-29T16:45:54+08:00 ] 127.0.0.1 /Home/User/showLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-06-29T16:45:54+08:00 ] 127.0.0.1 /Home/User/assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+ERR: 非法操作:assets
+
