@@ -90,7 +90,7 @@ class MainController extends Controller
         if ($user->save()) {
             $this->success("管理员资料修改成功!", U("Main/editProfile"));
         } else {
-            $this->error("没有改动任何内容!");
+            $this->error("没有改动任何内容!", U("Main/editProfile"));
         }
     }
 	/*	读者信息增删改	*/
@@ -121,7 +121,7 @@ class MainController extends Controller
         if($reader->add()){
             $this->success('读者信息添加成功', U('Main/addReader'));
         }else{
-			$this->error("添加失败！");
+			$this->error("添加失败！", U('Main/addReader'));
 		}
 	}
 	public function updateReader(){
@@ -162,7 +162,7 @@ class MainController extends Controller
         if($reader->save($data)){
             $this->success("读者资料修改成功!", U("Main/updateReader"));
         } else {
-            $this->error("没有改动任何内容!");
+            $this->error("没有改动任何内容!", U("Main/updateReader"));
          }
 	}
 	public function deleteReader(){
@@ -180,7 +180,7 @@ class MainController extends Controller
 		if($reader->where("reader_id=".$id)->delete()){
             $this->success("读者资料删除成功!", U("Main/deleteReader"));
         } else {
-            $this->error("删除失败!");
+            $this->error("删除失败!", U("Main/deleteReader"));
          }
 		
 	}
@@ -210,12 +210,12 @@ class MainController extends Controller
 		);
 		$book=M("book");
 		if(!$book->validate($rules)->field(array('bookname','isbn','class','author','publish','tsdj','rksj','cfwz','rksl','intro'))->create()){ 
-            $this->error($user->getError());
+            $this->error($book->getError());
         }
         if($book->add()){
             $this->success('图书入库成功', U('Main/addBook'));
         }else{
-			$this->error("添加失败！");
+			$this->error("添加失败！", U('Main/addBook'));
 		}
 	}
 	public function updateBook(){
@@ -258,7 +258,7 @@ class MainController extends Controller
 		 if($book->save($data)){
             $this->success("图书资料修改成功!", U("Main/updateBook"));
         } else {
-            $this->error("没有改动任何内容!");
+            $this->error("没有改动任何内容!", U("Main/updateBook"));
          }
 		
 	}
@@ -277,7 +277,7 @@ class MainController extends Controller
 		if($book->where("book_id=".$id)->delete()){
             $this->success("读者资料删除成功!", U("Main/deleteBook"));
         } else {
-            $this->error("删除失败!");
+            $this->error("删除失败!", U("Main/deleteBook"));
          }
 	}
 	/*	End	*/
@@ -315,10 +315,15 @@ class MainController extends Controller
 	}
 	public function doLendBook(){
 		$bid=$_GET['id'];
-		$m['title']='';
-		$reader=M('reader');
-		import('Org.util.Page');
-		$count=$reader->count();
+		$book=M("book");
+		$m['id']=$bid;
+		$map['rksl']=array('gt',0);
+		if($book->where($map['rksj'])){
+			$this->success("图书借阅成功!", U("Main/deleteBook"));
+
+		} else {
+			$this->error("图书借阅失败!");
+		}
 
 
 	}
